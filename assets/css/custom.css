@@ -1,0 +1,48 @@
+/* Polytonic Greek (e.g. καὶ, ἄν) is missing from the theme's Google fonts, so
+   Greek and Greek Extended code points use a self-hosted Noto Serif subset
+   (SIL Open Font License). Latin text keeps the theme fonts. */
+@font-face {
+  font-family: 'Greek Serif';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/noto-serif-greek-ext-italic.woff2') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: 'Greek Serif';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/noto-serif-greek-italic.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+@font-face {
+  font-family: 'Greek Serif';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/noto-serif-greek-ext-normal.woff2') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: 'Greek Serif';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/noto-serif-greek-normal.woff2') format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+
+html:root {
+  --hb-font-heading: 'Greek Serif', 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --hb-font-body: 'Greek Serif', 'Source Serif 4', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --hb-font-nav: 'Greek Serif', 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+/* Keep the IPA pronunciation above the name as one centered run,
+   instead of letting the browser spread it across the whole name. */
+.hb-ruby-name rt {
+  ruby-align: center;
+  letter-spacing: 0.02em;
+}

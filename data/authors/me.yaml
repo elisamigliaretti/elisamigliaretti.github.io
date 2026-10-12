@@ -8,20 +8,23 @@ name:
   alternate: ''
   pronunciation: '[eˈliːza ˌmiʎːaˈretːi]'
   pronouns: ''
-role: PhD Candidate
+role: PhD Student in Indo-European Studies
 bio: |
   *Bio coming soon.*
 
 affiliations:
-  - name: University of California, Los Angeles
-    url: https://www.ucla.edu/
-  - name: PIE Collective (Founding Member)
+  - name: Program in Indo-European Studies, University of California, Los Angeles
+    url: https://pies.ucla.edu/
+  - name: PIE Collective (Founding Member; PhD Team Leader, Social Media Team)
     url: https://www.pie-collective.com/people
 
 links:
   - icon: at-symbol
-    url: mailto:elimigliaretti@g.ucla.edu
+    url: mailto:elimigliaretti@ucla.edu
     label: E-mail Me
+  - icon: globe-alt
+    url: https://mopsos.org/
+    label: MoPSoS
 
 interests:
   - Indo-European Verb-Initial Compounds
@@ -30,12 +33,27 @@ interests:
   - Indo-European Poetics and Mythology
 
 education:
+  - degree: PhD Indo-European Studies (expected 2027)
+    year: '2021–2027'
+    institution: University of California, Los Angeles
+    start: 2021-09-01
+    end: 2027-06-30
+  - degree: Certificate in Linguistics (expected Fall 2026)
+    year: '2026'
+    institution: Department of Linguistics, University of California, Los Angeles
+    start: 2026-09-01
+    end: 2026-12-15
+  - degree: Certificate in Classics
+    year: '2024'
+    institution: Department of Classics, University of California, Los Angeles
+    start: 2024-04-01
+    end: 2024-06-15
   - degree: MA Indo-European Studies
     year: '2021–2023'
     institution: University of California, Los Angeles
     start: 2021-09-01
     end: 2023-06-30
-  - degree: MA Classics
+  - degree: MA Ancient Philology, Literature and History
     year: '2018–2021'
     institution: Università Cattolica del Sacro Cuore, Milan
     start: 2018-09-01
@@ -53,6 +71,12 @@ education:
       (“The invective of Timokreon of Rhodes against Themistocles (Fr. 727 Page)”).
 
 experience:
+  - role: Graduate Student Representative
+    org: Program in Indo-European Studies, UCLA
+    start: 2024-09-01
+    end: 2026-06-30
+    summary: |
+      Spring 2026: PIES Graduate Student Representative in the 8th-Year-Review Committee.
   - role: Research Assistant to Prof. David Goldstein
     org: Department of Linguistics, UCLA
     start: 2021-09-01
@@ -64,21 +88,29 @@ experience:
       Courses in Latin, Classics, Linguistics, and Indo-European linguistics.
       Instructor of record for Medical Terminology (Classics 47), Summer 2024.
       See the [Teaching](/#teaching) section for the full list.
+  - role: Head of the Organizing Committee, UCLA Indo-European Conference (WeCIEC)
+    org: Program in Indo-European Studies, UCLA
+    start: 2024-01-01
+    end: 2026-10-24
+    summary: |
+      Head of the organizing committee for WeCIEC 2024, 2025, and 2026; committee member for WeCIEC 2021, 2022, and 2023.
+      See the [Conference Organization](/#organization) section for the full list.
 
 awards:
   - title: Graduate Summer Research Mentorship
-    awarder: UCLA Division of Graduate Education
+    awarder: University of California, Los Angeles
     date: "2024-06-01"
     icon: hero/academic-cap
   - title: Graduate Summer Research Mentorship
-    awarder: UCLA Division of Graduate Education
+    awarder: University of California, Los Angeles
     date: "2023-06-01"
     icon: hero/academic-cap
-  - title: Award for Best Master’s Thesis in Indo-European Studies (2nd place)
+  - title: Award for the 2nd Best MA Thesis in 2021
     awarder: Indogermanische Gesellschaft
     url: https://www.indogermanistik.org/preise.html
     date: "2022-01-01"
     icon: hero/trophy
-  - title: Andrew W. Mellon Fellowship
+  - title: Andrew W. Mellon Fellowship of Distinction
+    awarder: University of California, Los Angeles
     date: "2021-01-01"
     icon: hero/trophy

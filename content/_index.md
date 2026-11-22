@@ -168,7 +168,7 @@ sections:
   - block: markdown
     id: service
     content:
-      title: Service
+      title: Department Service
       text: |-
         **Spring 2026** — PIES Graduate Student Representative, 8th-Year-Review Committee, University of California, Los Angeles.
 

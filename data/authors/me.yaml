@@ -6,7 +6,7 @@ name:
   given: Elisa
   family: Migliaretti
   alternate: ''
-  pronunciation: '[eˈliːza ˌmiʎːaˈretːi]'
+  pronunciation: '[eˈliːza ˌmiʎːaˈretːi] | elimigliaretti [at] ucla [dot] edu'
   pronouns: ''
 role: PhD Student in Indo-European Studies
 bio: |
@@ -25,9 +25,6 @@ affiliations:
     url: https://www.pie-collective.com/people
 
 links:
-  - icon: at-symbol
-    url: mailto:elimigliaretti@ucla.edu
-    label: E-mail Me
   - icon: globe-alt
     url: https://mopsos.org/
     label: MoPSoS

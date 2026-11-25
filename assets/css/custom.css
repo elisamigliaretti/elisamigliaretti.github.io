@@ -121,6 +121,7 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   margin-top: 0.25em;
   padding-bottom: 0;
   letter-spacing: 0.02em;
+   color: red;
 }
 
 /* Home page: show only the bio and research interests in the right column */

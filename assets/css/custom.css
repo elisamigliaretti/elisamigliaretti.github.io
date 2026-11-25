@@ -181,3 +181,33 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
 #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a[href*="mopsos"]::before {
   background-image: url("/images/MoPSoS_logo.svg");
 }
+
+/* Title line under the photo: white */
+#section-resume-biography-3 .space-y-3 > p:nth-of-type(1) {
+  color: #ffffff;
+}
+
+/* Light boxes with dark text: research interests + the PIE Collective / MoPSoS links */
+#section-resume-biography-3 .flex-wrap.gap-3 > span,
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a {
+  background-color: #e6eaf5;
+  color: #111827;
+  border: 1px solid #c3cde8;
+  border-radius: 9999px;
+}
+#section-resume-biography-3 .flex-wrap.gap-3 > span:hover,
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a:hover {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+/* Give the two links the same box size as the interest boxes */
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a::before {
+  width: 1.5rem;
+  height: 1.5rem;
+}

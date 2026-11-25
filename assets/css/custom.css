@@ -81,6 +81,45 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   height: 100% !important;
 }
 
+/* Desktop only: photo on the left, name + pronunciation on the right */
+@media (min-width: 768px) {
+  #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid {
+    row-gap: 0;
+    grid-template-rows: auto auto auto auto auto 1fr;
+  }
+  /* Let the left column and its text block dissolve into the page grid */
+  #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child,
+  #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .space-y-3 {
+    display: contents;
+  }
+  /* Row 1: photo on the left, name on the right */
+  #section-resume-biography-3 .avatar-wrapper {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    justify-self: center;
+    margin-bottom: 0;
+  }
+  #section-resume-biography-3 .space-y-3 > h1 {
+    grid-column: 5 / 13;
+    grid-row: 1;
+    align-self: center;
+    text-align: left;
+  }
+  /* Left column, below the photo: title, affiliations, links */
+  #section-resume-biography-3 .space-y-3 > p:nth-of-type(1) { grid-column: 1 / 5; grid-row: 2; margin-top: 2rem; }
+  #section-resume-biography-3 .space-y-3 > p:nth-of-type(2) { grid-column: 1 / 5; grid-row: 3; }
+  #section-resume-biography-3 .space-y-3 > p:nth-of-type(3) { grid-column: 1 / 5; grid-row: 4; }
+  #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap {
+    grid-column: 1 / 5;
+    grid-row: 5;
+  }
+  /* Right column: "Ciao!" and the rest, starting below the name */
+  #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:last-child {
+    grid-column: 5 / 13;
+    grid-row: 2 / 7;
+  }
+}
+
 /* Pronunciation on its own line below the name */
 .hb-ruby-name {
   display: block;

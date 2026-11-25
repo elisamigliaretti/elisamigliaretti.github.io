@@ -134,3 +134,8 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   padding-bottom: 0;
   letter-spacing: 0.02em;
 }
+
+/* Home page: show only the bio and research interests in the right column */
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:last-child > .mb-16 {
+  display: none;
+}

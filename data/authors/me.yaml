@@ -26,6 +26,9 @@ affiliations:
 
 links:
   - icon: globe-alt
+    url: https://www.pie-collective.com/people
+    label: PIE Collective
+  - icon: globe-alt
     url: https://mopsos.org/
     label: MoPSoS
 

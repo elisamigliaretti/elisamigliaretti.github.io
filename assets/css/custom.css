@@ -128,7 +128,7 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   display: none;
 }
 
-/* Hide the "Program in Indo-European Studies, UCLA" line under the title */
-#section-resume-biography-3 .space-y-3 > p:nth-of-type(2) {
+/* Hide all affiliation lines under the title */
+#section-resume-biography-3 .space-y-3 > p:nth-of-type(n+2) {
   display: none;
 }

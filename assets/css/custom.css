@@ -70,3 +70,15 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
 #section-resume-biography-3 .resume-biography {
   padding-top: 2rem;
 }
+
+/* Make the profile photo a bit bigger */
+#section-resume-biography-3 .grid > div:first-child :has(> img) {
+  width: 28rem;
+  height: 28rem;
+  max-width: 100%;
+}
+#section-resume-biography-3 .grid > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

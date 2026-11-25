@@ -197,7 +197,7 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
 }
 #section-resume-biography-3 .flex-wrap.gap-3 > span:hover,
 #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a:hover {
-  background-color: #ffffff;
+  background-color: var(--color-primary-400);
   color: #111827;
 }
 
@@ -210,4 +210,11 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
 #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a::before {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+/* Subtle lift on hover for the interest boxes and the two links */
+#section-resume-biography-3 .flex-wrap.gap-3 > span:hover,
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }

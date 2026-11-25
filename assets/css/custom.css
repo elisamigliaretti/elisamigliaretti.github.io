@@ -132,3 +132,52 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
 #section-resume-biography-3 .space-y-3 > p:nth-of-type(n+2) {
   display: none;
 }
+
+/* Links list: picture + name, the whole row is one link */
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  width: fit-content;
+  margin-inline: auto;
+}
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a {
+  width: auto;
+  height: auto;
+  padding: 0;
+  gap: 0.75rem;
+  justify-content: flex-start;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  transform: none;
+  scale: none;
+  translate: none;
+  font-size: 1.125rem;
+  color: inherit;
+}
+/* Hide the template's icon, show your picture and the link's name instead */
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a > svg {
+  display: none;
+}
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a::before {
+  content: "";
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  background: center / contain no-repeat;
+}
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a::after {
+  content: attr(title);
+}
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a:hover::after {
+  text-decoration: underline;
+}
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a[href*="pie-collective"]::before {
+  background-image: url("/images/PhDLogo_bckgr.svg");
+}
+#section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a[href*="mopsos"]::before {
+  background-image: url("/images/MoPSoS_logo.svg");
+}

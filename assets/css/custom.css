@@ -86,7 +86,7 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   #section-resume-biography-3 .space-y-3 > h1 {
     grid-column: 5 / 13;
     grid-row: 1;
-    align-self: left;
+    justify-self: center;
     text-align: left;
   }
   /* Left column, below the photo: title, affiliations, links */

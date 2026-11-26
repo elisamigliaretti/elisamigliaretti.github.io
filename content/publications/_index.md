@@ -2,23 +2,23 @@
 title: Publications
 cms_exclude: true
 type: landing
+cascade:
+  build:
+    render: never
+    list: always
 
 design:
   spacing: '5rem'
 
 sections:
-    - block: markdown
+  - block: collection
     id: papers
     content:
       title: Publications
-      text: |-
-        **2026 (under review)** — with Vasileios Michos. Ancient Greek VO Compounds as an Inner-Greek Innovation. In Nicolas Bertrand, Richard Faure, Matilde Garré, and Irène Maréchal (eds.), *Proceedings of the 11th International Colloquium on Ancient Greek Linguistics*. Boston: De Gruyter.
-
-        **2026** — From s-Stems to -εσι-Compounds: Morphosemantic Constraints on Analogical Change in Ancient Greek. In David M. Goldstein, Stephanie W. Jamison, and Anthony D. Yates (eds.), *Proceedings of the 35th Annual UCLA Indo-European Conference*. Hamburg: Buske.
-
-        **2024** — The Rhythmic Basis of Porson’s Bridge: An Explanation of Monosyllabic Words and Clitics. In David M. Goldstein, Stephanie W. Jamison, and Anthony D. Yates (eds.), *Proceedings of the 34th Annual UCLA Indo-European Conference*. Hamburg: Buske.
-    design:
-      columns: '1'
+      text: ''
+      filters:
+        folders:
+          - publications
     design:
       view: citation
 

@@ -219,3 +219,24 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   transform: translateY(-3px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
+
+/* Publications page: match the publication list and the Theses */
+
+/* Publications: same text size and line spacing as the Theses (large screens) */
+@media (min-width: 1024px) {
+  .pub-list-item {
+    font-size: 1.25rem;
+    line-height: 1.8;
+  }
+}
+
+/* Smaller gap between the "Publications" heading and the list */
+.container:has(.pub-list-item) {
+  margin-top: 1rem;
+}
+
+/* Theses: same line length as the publication list */
+body:has(.pub-list-item) .prose.max-w-prose {
+  max-width: 48rem;
+  width: 100%;
+}

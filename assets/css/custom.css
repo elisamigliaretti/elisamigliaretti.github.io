@@ -203,13 +203,13 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
 
 /* Give the two links the same box size as the interest boxes */
 #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a::before {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 /* Subtle lift on hover for the interest boxes and the two links */

@@ -190,14 +190,14 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
 /* Light boxes with dark text: research interests + the PIE Collective / MoPSoS links */
 #section-resume-biography-3 .flex-wrap.gap-3 > span,
 #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a {
-  background-color: #e6eaf5;
+  background-color: #dbeafe;
   color: #111827;
   border: 1px solid #c3cde8;
   border-radius: 9999px;
 }
 #section-resume-biography-3 .flex-wrap.gap-3 > span:hover,
 #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a:hover {
-  background-color: var(--color-primary-400);
+  background-color: #93c5fd;
   color: #111827;
 }
 

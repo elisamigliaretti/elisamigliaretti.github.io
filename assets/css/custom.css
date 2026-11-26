@@ -220,14 +220,13 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
 
-/* Publications page: match the publication list and the Theses */
+/* Publications page: bio-sized text and matching widths */
 
-/* Publications: same text size and line spacing as the Theses (large screens) */
-@media (min-width: 1024px) {
-  .pub-list-item {
-    font-size: 1.25rem;
-    line-height: 1.8;
-  }
+/* Publications and Theses: same size and line spacing as the bio */
+.pub-list-item,
+body:has(.pub-list-item) .prose.max-w-prose {
+  font-size: 1.125rem;
+  line-height: 1.625;
 }
 
 /* Smaller gap between the "Publications" heading and the list */
@@ -235,8 +234,13 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   margin-top: 1rem;
 }
 
-/* Theses: same line length as the publication list */
-body:has(.pub-list-item) .prose.max-w-prose {
-  max-width: 48rem;
+/* Theses: same line length as the publication list.
+   The box has 1.5rem of padding per side, so 51rem leaves 48rem of text, like the list. */
+#theses > .flex {
+  max-width: 51rem;
+  width: 100%;
+}
+#theses .prose {
+  max-width: none;
   width: 100%;
 }

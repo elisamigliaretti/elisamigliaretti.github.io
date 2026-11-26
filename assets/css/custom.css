@@ -141,6 +141,7 @@ svg:has(> path[d^="M15 9h3.75"]) > path {
   gap: 0.75rem;
   width: fit-content;
   margin-inline: auto;
+  align-items: center;
 }
 #section-resume-biography-3 .resume-biography > .max-w-7xl > .grid > div:first-child > .flex-wrap > a {
   width: auto;

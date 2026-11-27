@@ -244,3 +244,10 @@ body:has(.pub-list-item) .prose.max-w-prose {
   max-width: none;
   width: 100%;
 }
+
+/* Publications list: no links, since there are no separate pages */
+.pub-list-item a {
+  pointer-events: none;
+  text-decoration: none;
+  color: inherit;
+}

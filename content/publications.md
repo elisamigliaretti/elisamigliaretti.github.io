@@ -31,11 +31,11 @@ sections:
     content:
       title: Theses
       text: |-
-        **2021** — *I composti pindarici: il caso degli hapax legomena nelle Pitiche*
+        **2021** — [*I composti pindarici: il caso degli hapax legomena nelle Pitiche*](/theses/hapax-pitiche.pdf)
         (“Pindaric compounds: the case of hapax legomena in the Pythians”).
         MA thesis, Università Cattolica del Sacro Cuore, Milan.
 
-        **2018** — *L’invettiva di Timocreonte di Rodi contro Temistocle (Fr. 727 Page)*
+        **2018** — [*L’invettiva di Timocreonte di Rodi contro Temistocle (Fr. 727 Page)*](/theses/timocreonte-di-rodi.pdf)
         (“The invective of Timokreon of Rhodes against Themistocles (Fr. 727 Page)”).
         BA thesis, Università Cattolica del Sacro Cuore, Milan.
     design:

@@ -22,7 +22,7 @@ sections:
 
         **2026** — [From s-Stems to -εσι-Compounds: Morphosemantic Constraints on Analogical Change in Ancient Greek](https://escholarship.org/uc/item/7397v2mk).
         In David M. Goldstein, Stephanie W. Jamison, and Anthony D. Yates (eds.),
-        *Proceedings of the Annual UCLA Indo-European Conference* 35, 126—145.
+        *Proceedings of the Annual UCLA Indo-European Conference* 35, 126–145.
 
         **2024** — [The Rhythmic Basis of Porson’s Bridge: An Explanation of Monosyllabic Words and Clitics](/papers/porsons-bridge.pdf).
         In David M. Goldstein, Dieter Gunkel, Stephanie W. Jamison, and Anthony D. Yates (eds.), *Proceedings of the 34th Annual UCLA Indo-European Conference*.

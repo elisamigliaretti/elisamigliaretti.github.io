@@ -245,9 +245,16 @@ body:has(.pub-list-item) .prose.max-w-prose {
   width: 100%;
 }
 
-/* Publications list: no links, since there are no separate pages */
-.pub-list-item a {
-  pointer-events: none;
-  text-decoration: none;
-  color: inherit;
+/* Publications page: both lists in bio-sized text, same width */
+#papers .prose,
+#theses .prose {
+  font-size: 1.125rem;
+  line-height: 1.625;
+  max-width: none;
+  width: 100%;
+}
+#papers > .flex,
+#theses > .flex {
+  max-width: 51rem;
+  width: 100%;
 }

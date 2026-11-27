@@ -11,17 +11,19 @@ design:
   spacing: '5rem'
 
 sections:
-  - block: collection
+ - block: markdown
     id: papers
     content:
       title: Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-    design:
-      view: citation
+      text: |-
+        Elisa Migliaretti, Vasileios Michos (2026). [Ancient Greek VO Compounds as an Inner-Greek Innovation](/papers/vo-compounds-inner-greek.pdf). *Proceedings of the 11th International Colloquium on Ancient Greek Linguistics*.
 
+        Elisa Migliaretti (2026). [From s-Stems to -εσι-Compounds: Morphosemantic Constraints on Analogical Change in Ancient Greek](https://escholarship.org/uc/item/7397v2mk). In David M. Goldstein, Stephanie W. Jamison, and Anthony D. Yates (eds.), *Proceedings of the Annual UCLA Indo-European Conference* 35, 126—145.
+
+        Elisa Migliaretti (2024). [The Rhythmic Basis of Porson’s Bridge: An Explanation of Monosyllabic Words and Clitics](/papers/porsons-bridge.pdf). In David M. Goldstein, Dieter Gunkel, Stephanie W. Jamison, and Anthony D. Yates (eds.), *Proceedings of the 34th Annual UCLA Indo-European Conference* 
+    design:
+      columns: '1'
+   
   - block: markdown
     id: theses
     content:

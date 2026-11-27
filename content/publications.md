@@ -2,10 +2,6 @@
 title: Publications
 cms_exclude: true
 type: landing
-cascade:
-  build:
-    render: never
-    list: always
 
 design:
   spacing: '5rem'
